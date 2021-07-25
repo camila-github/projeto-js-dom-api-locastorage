@@ -1,6 +1,6 @@
 ## Projeto: Listagem de Filme + Reserva de lugar com uso de DOM (Document Object Model)
 
-- O intuito do projeto foi criar um site que liste Filme com consulta de API e com opção para reserva de lugar. Utilizados ferramentas como JavaScript ES6, DOM (Document Object Model) + CSS + Consulta de API da TMDB.
+- O intuito do projeto foi criar um site que liste Filme com consulta de API e com opção para reserva de lugar. Utilizado ferramentas como JavaScript ES6, DOM (Document Object Model) + CSS + Consulta de API da TMDB.
 
 ## Ferramentas Utilizadas
 
