@@ -1,0 +1,86 @@
+@media (max-width: 1120px) {
+    .container img {
+        margin-top: 100px;
+        width: 300px;
+        height: 300px;
+    }
+
+    .title {
+        margin-left: -110px;
+        line-height: 3rem;
+        letter-spacing: 4px;
+        font-size: 3rem;
+    }
+
+    .title2, .title3 {     
+        font-size: 2rem;       
+    }
+}
+
+@media (max-width: 830px) {
+    .container img {
+        align-items: center;
+        width: 280px;
+        height: 280px;
+    }
+
+    .title {
+        margin-left: -80px;
+        line-height: 3rem;
+        letter-spacing: 4px;
+        font-size: 2rem;        
+    }
+
+}
+
+@media (max-width: 755px) {
+    .container img {
+        margin-left: -60px;
+        width: 250px;
+        height: 250px;
+    }
+
+    .title {
+        margin-left: -60px;             
+    }   
+}
+
+@media (max-width: 659px) {
+    .container img {
+        margin-left: -50px;
+        width: 220px;
+        height: 220px;
+    }
+
+    .title {
+        margin-left: -40px;
+        line-height: 3rem;
+        letter-spacing: 3px;
+        font-size: 2rem;
+    }
+
+    .title2, .title3 {     
+        font-size: 2rem;       
+    }
+}
+
+
+@media (max-width: 582px) {
+    .container img {
+        align-items: center;
+        width: 220px;
+        height: 220px;
+    }
+
+    .title {
+        margin-left: -180px;
+        margin-bottom: -480px;
+        line-height: 3rem;
+        letter-spacing: 3px;
+        font-size: 2rem;
+    }
+
+    .title2, .title3 {     
+        font-size: 2rem;       
+    }
+}
