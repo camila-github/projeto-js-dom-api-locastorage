@@ -6,6 +6,7 @@
 
 - JavaScript ES6
 - Uso de DOM (Document Object Model) nas tags HTML e em estilos CSS
+- Async Await
 - CSS - Flexbox 
 - Bibliotecas de icones (Font-Awesome)
 - Biblioteca com imagens com  animações (LottieFiles)
