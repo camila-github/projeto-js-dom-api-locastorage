@@ -21,10 +21,20 @@
 
   ## Vídeo de demonstração do aplicativo
 
-<p align="center">
-   <img src=""/>
-</p>
+- Pagina index
 
 <p align="center">
-   <img src=""/>
+   <img src="https://github.com/camila-github/projeto-js-dom-api-locastorage/blob/main/docs/pagina-index-.gif"/>
+</p>
+
+- Pagina pequisa
+
+<p align="center">
+   <img src="https://github.com/camila-github/projeto-js-dom-api-locastorage/blob/main/docs/pagina-pesquisa-.gif"/>
+</p>
+
+- Pagina reserva
+
+<p align="center">
+   <img src="https://github.com/camila-github/projeto-js-dom-api-locastorage/blob/main/docs/pagina-reserva-.gif"/>
 </p>
