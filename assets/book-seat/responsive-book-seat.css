@@ -1,0 +1,16 @@
+@media (max-width: 905px) {
+
+    section{
+        margin-top: 90px;
+    }
+}
+
+
+@media (max-width: 698px) {
+
+    section{
+    
+        height: auto;
+        width: auto;
+    }
+}

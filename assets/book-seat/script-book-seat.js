@@ -1,9 +1,9 @@
-const container = document.querySelector('.container')
+const containerReserva = document.querySelector('.container__reserva')
 const seats = document.querySelectorAll('.row .seat:not(.occupied)')
 const count = document.getElementById('count')
 const total = document.getElementById('total')
 const movieSelect = document.getElementById('movie')
-const bookNow = document.getElementById('booknow')
+const btnReserva = document.getElementById('btnreserva')
 const row = document.getElementsByClassName("row");
 
 window.onload = () => showSeat(row);
@@ -39,8 +39,11 @@ const setMovieData = (movieIndex, moviePrice) => {
 
 // update total and count
 const updateSelectedCount = () => {
+  
   const selectedSeats = document.querySelectorAll('.row .seat.selected')
   const selectedSeatsCount = selectedSeats.length
+
+  console.log(total)
 
   const seatIndex = [...selectedSeats].map((seat) => {
     return [...seats].indexOf(seat)
@@ -75,7 +78,7 @@ movieSelect.addEventListener('change', (e) => {
   updateSelectedCount()
 })
 
-container.addEventListener('click', (e) => {
+containerReserva.addEventListener('click', (e) => {
   if (
     e.target.classList.contains('seat') &&
     !e.target.classList.contains('occupied')
@@ -85,8 +88,17 @@ container.addEventListener('click', (e) => {
   }
 })
 
-bookNow.addEventListener('click', () => alert(`O filme selecionado foi reservado com sucesso!!`))
+btnReserva.addEventListener('click', () => alert(`O filme selecionado foi reservado com sucesso!!`))
 
 // initial count and total seats
 updateSelectedCount()
+
+
+const open = document.getElementById('open')
+const close = document.getElementById('close')
+const container = document.querySelector('.container')
+
+open.addEventListener('click', () => container.classList.add('show-nav'))
+close.addEventListener('click', () => container.classList.remove('show-nav'))
+
 

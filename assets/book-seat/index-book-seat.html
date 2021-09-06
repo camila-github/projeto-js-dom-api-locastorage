@@ -5,55 +5,70 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/gif" href="../img/logo.gif" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
-      integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="./style-book-seat.css"/>
+    <link rel="stylesheet" href="../book-seat/style-book-seat.css"/>
+    <link rel="stylesheet" href="../book-seat/responsive-book-seat.css"/>
     <title>Reserve seus ingressos agora</title>
   </head>
-  <body>
-    <div class="movie-container">
-      <label for="">Escolha um filme: </label>
-      <select name="movie" id="movie">
-        <option value="10">Avengers Endgame (R$ 10,00)</option>
-        <option value="12">Joker (R$ 12,00)</option>
-        <option value="8">The Lion king (R$ 8,00)</option>
-        <option value="9">Toy Story 4 (R$ 9,00)</option>
-      </select>
-    </div>
+  <body> 
+    <main class="container">   
+        <div class="circle-container">
+          <div class="circle">
+            <button id="close"><img src="../img/menu-x.png" alt="#" ></button>
+            <button id="open"><img src="../img/menu-hamburguer.png" alt="#"></button>
+          </div>
+        </div>
 
-    <ul class="showcase">
-      <li><div class="seat"></div><small>N/A</small> </li>
-      <li><div class="seat selected"></div><small>Desocupado</small></li>
-      <li><div class="seat occupied"></div><small>Ocupado</small></li>
-    </ul>
+        <section>
+            <div class="movie-container">
+              <label for="">Escolha um filme: </label>
+              <select name="movie" id="movie">
+                <option value="18">R$ 18,00 - Hulk</option>
+                <option value="15">R$ 15,00 - Avengers Endgame</option>
+                <option value="14">R$ 14,00 - Joker</option>    
+                <option value="12">R$ 12,00 - Toy Story 4</option>
+                <option value="10">R$ 10,00 - The Lion king</option>  
+              </div>            
+        </select>
+            
+      
+            <ul class="showcase">
+              <li><div class="seat"></div><small>N/A</small> </li>
+              <li><div class="seat selected"></div><small>Desocupado</small></li>
+              <li><div class="seat occupied"></div><small>Ocupado</small></li>
+            </ul>
 
-    <div class="container">
-      <div class="screen"></div>
-      <div class="bronze" id="bronze">Bronze</div>
-      <div class="row"></div>
-      <div class="row"></div>
-    
-      <div class="silver">Prata</div>
-      <div class="row"></div>
-      <div class="row"></div>
-      <div class="row"></div>
-      <div class="row"></div>       
+            <div class="container__reserva">
+              <div class="screen"></div>
+              <div class="bronze" id="bronze">Bronze</div>
+              <div class="row"></div>
+              <div class="row"></div>
+            
+              <div class="silver">Prata</div>
+              <div class="row"></div>
+              <div class="row"></div>
+              <div class="row"></div>
+              <div class="row"></div>       
 
-      <div class="gold">Gold</div>
-      <div class="row"></div>
-      <div class="row"></div>      
-    </div>
+              <div class="gold">Gold</div>
+              <div class="row"></div>
+              <div class="row"></div>      
+            </div>
 
-    <p class="text">
-      Você selecionou <span id="count">0</span> 
-      assento(s) por um preço de R$ <span id="total">0</span>
-    </p>
-    <button id="booknow"><a href="/index.html">Reserve agora</a></button>    
+            <p class="text">
+              Você selecionou <span id="count">0</span> 
+              assento(s) por um preço de R$ <span id="total">0</span>
+            </p>
+            <button id="btnreserva">Reserve agora</button>  
+    </main> 
+
+    <nav>
+      <ul>
+        <li><a href="/index.html"><img src="../img/menu-pagina-inicial.png" alt="#" ></img></a></li>
+        <li><a href="../movies/index-movie.html"><img src="../img/menu-lista-filmes.png" alt="#" ></img></a></li>
+        <li><a href="../book-seat/index-book-seat.html"><img src="../img/menu-reserve-agora.png" alt="#" ></img></a></li>
+      </ul>
+    </nav>
 
     <script src="./script-book-seat.js"></script>
-  </body>
+  </body>  
 </html>
