@@ -15,11 +15,7 @@
 - Responsividade
 - Uso do localStorage para guardar informações no browser.
 
-## Site publicado no link abaixo:
-
-  [https://camila-github.github.io/projeto-js-dom-api-locastorage/](https://camila-github.github.io/projeto-js-dom-api-locastorage/)
-
-  ## Vídeo de demonstração do aplicativo
+## Vídeo de demonstração do aplicativo
 
 - Pagina index
 
