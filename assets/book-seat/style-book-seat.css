@@ -1,7 +1,7 @@
 :root{
   --primeira-cor: #020318;;
   --segunda-cor: #fff;  
-  --terceira-cor: #f4f809;;
+  --terceira-cor: #a30505;
 }
 
 * {
@@ -40,7 +40,6 @@ section {
   min-height: 100vh;
   text-align: -webkit-center;
   border-radius: 20px;
-
 }
 
 .container.show-nav {
@@ -136,7 +135,6 @@ section.movie-container select {
   border: 0;
   border-radius: 5px;
   font-size: 14px;
-
   padding: 5px 15px 5px 15px;
  
 }
@@ -144,7 +142,6 @@ section.movie-container select {
 section.container__reserva {
 
   border: 5px solid var(--segunda-cor);
-
   width: 500px;
   border-radius: 10px;
 }
@@ -154,8 +151,7 @@ section.container__reserva {
   height: 15px;
   width: 20px;
   margin: 3px;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
+  border-radius: 10%;
   padding-bottom: 2px;
 }
 
