@@ -1,0 +1,19 @@
+
+@media (max-width: 814px) {   
+    .content img{
+        padding: 10px;
+        margin-top: 90px;
+    }
+}
+
+@media (max-width: 594px) {   
+    .content img{
+        width: 400px;
+    }
+}
+
+@media (max-width: 405px) {   
+    .content img{
+        width: 350px;
+    }
+}

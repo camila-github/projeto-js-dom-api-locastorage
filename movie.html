@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/gif" href="assets/img/logo.gif" />    
+    <link rel="stylesheet" href="assets/movies/style.css" />
+    <link rel="stylesheet" href="assets/movies/responsive.css" />
+    <title>Pesquisar Filmes</title>
+  </head>
+  <body>
+    <!-- Rotational NavBar -->
+    <div class="container">
+      <div class="circle-container">
+        <div class="circle">
+          <button id="close"><img src="assets/img/menu-x.png" alt="#" ></img></i></button>
+          <button id="open"><img src="assets/img/menu-hamburguer.png" alt="#"></button>
+        </div>
+      </div>
+
+      <!-- Header -->
+      <header>
+        <div class="header__img">
+          <img src="assets/img/movies.gif"class="img1"  alt="#" width="300px" height="300px">  
+          <lottie-player
+            class="img2"
+            src="assets/img/movie-theatre.json"
+            mode="bounce"
+            background="transparent"
+            speed="1"            
+            loop
+            autoplay
+          ></lottie-player>
+          
+        </div>
+        <form id="form">
+          <input type="text" id="search" class="search" placeholder="Search" />
+        </form>
+      </header>
+
+      <main id="main"></main>
+    </div>
+  
+    <!-- Sidebar -->
+    <nav>
+      <ul>
+        <li><a href="index.html"><img src="assets/img/menu-pagina-inicial.png" alt="#" ></img></a></li>
+        <li><a href="movie.html"><img src="assets/img/menu-lista-filmes.png" alt="#" ></img></a></li>
+        <li><a href="seat.html"><img src="assets/img/menu-reserve-agora.png" alt="#" ></img></a></li>
+      </ul>
+    </nav>
+  
+    <footer class="footer">  
+      <div> @ Cinema - Reserva Online -  
+        <a href="https://github.com/camila-github"
+          target="_blank"
+          alt="github">
+            Desenvolvido por Camila Augusta
+        </a>
+      </div>
+    </footer>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <script src="assets/movies/script.js"></script>
+  </body>
+</html>
