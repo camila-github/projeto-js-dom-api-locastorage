@@ -32,5 +32,5 @@
 - Pagina reserva
 
 <p align="center">
-   <img src="https://github.com/camila-github/projeto-js-dom-api-locastorage/blob/main/docs/pagina-reserva.gif"/>
+   <img src="https://github.com/camila-github/projeto-js-dom-api-locastorage/blob/main/docs/pagina-reserva-.gif"/>
 </p>
